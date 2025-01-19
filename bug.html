@@ -1,0 +1,7 @@
+<p>This is an example of an uncommon HTML error.  It involves incorrect nesting of elements within a table.  Specifically, a <code>&lt;div&gt;</code> element is incorrectly placed inside a <code>&lt;td&gt;</code> element.</p><pre><code>&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td&gt;
+      &lt;div&gt;This div should not be here!&lt;/div&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;</code></pre><p>While the browser might render this, it's semantically incorrect.  <code>&lt;div&gt;</code> elements are block-level elements, and they don't belong within table cells which are designed for simpler, data-oriented content.</p>
